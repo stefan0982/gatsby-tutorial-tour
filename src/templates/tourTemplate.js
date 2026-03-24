@@ -3,7 +3,7 @@ import { graphql, Link }          from 'gatsby'
 import Layout                     from '../components/Layout'
 import styles                     from '../css/template.module.css'
 import Image                      from 'gatsby-image'
-import { FaMoneyBillWave, FaMap } from 'react-icons/all'
+import { FaMoneyBillWave, FaMap } from 'react-icons/fa'
 
 const TourTemplate = ({ data }) => {
   const { days, price, start, name, country, description: { description }, images, journey } = data.tour

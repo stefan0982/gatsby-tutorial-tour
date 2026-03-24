@@ -8,7 +8,6 @@ import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 
 const SingleTour = ({ tour }) => {
-  console.log( tour )
   const { name, price, slug, images, country, days } = tour
   const mainImage = images[0].fluid
   return (

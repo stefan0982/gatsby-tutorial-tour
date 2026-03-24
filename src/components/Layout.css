@@ -1,3 +1,14 @@
+:root {
+    --primaryColor: #476b6b;
+    --mainWhite: #fff;
+    --mainBlack: #222;
+    --darkGrey: #afafaf;
+    --mainSpacing: 0.2rem;
+    --mainTransition: all 0.3s ease-in-out;
+    --lightShadow: 2px 5px 3px 0 rgba(0, 0, 0, 0.12);
+    --darkShadow: 4px 10px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
 body {
     font-family: Verdana, Tahoma, sans-serif;
     background: #ccc;
